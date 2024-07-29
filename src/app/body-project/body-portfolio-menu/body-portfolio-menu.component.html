@@ -1,0 +1,9 @@
+
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" (click)="viewMenu()">
+      <mat-icon >menu</mat-icon>
+    </button>
+    <span>My App</span>
+</mat-toolbar> 
+<app-body-portfolio [validateSidNavTrue]="currentItem" (validateSidNavFalse)="callBackValueValidate($event)">
+</app-body-portfolio>
